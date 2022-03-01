@@ -38,7 +38,7 @@ export default {
 			title: 'Strategy',
 			name: 'strategy',
 			type: 'array',
-			of: [{ type: 'block' }],
+			of: [{ type: 'block' }, { type: 'image' }],
 		},
 	],
 };
