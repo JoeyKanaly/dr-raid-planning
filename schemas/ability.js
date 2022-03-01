@@ -14,6 +14,19 @@ export default {
 			type: 'url',
 		},
 		{
+			title: 'Difficulty',
+			name: 'difficulty',
+			type: 'string',
+			initialValue: 'normal',
+			options: {
+				list: [
+					{ title: 'Normal', value: 'normal' },
+					{ title: 'Heroic', value: 'heroic' },
+					{ title: 'Mythic', value: 'mythic' },
+				],
+			},
+		},
+		{
 			title: 'Short Description',
 			name: 'description',
 			type: 'string',
